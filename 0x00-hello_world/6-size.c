@@ -1,16 +1,14 @@
 #include <stdio.h>
-#include <unistd.h>
 
 /**
-* main - print quote
+* main - print the string in the put function
 *
-* Description: prints Dora's quote
-*
-* Return: Always 1 (Success
+* Description: using the main function
+* this program prints "Programming is like building a multilingual puzzle
+* Return: 0
 */
-
 int main(void)
 {
-write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
-return (1);
+	printf("with proper grammar, but the outcome is a piece of art,\n");
+	return (0);
 }
