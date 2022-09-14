@@ -1,19 +1,27 @@
-#include"main.h"
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
 
 /**
-* _putchar - prints the string _putchar
-*/
-void _putchar(void)
+ * main - entry point
+ *
+ * Return:always return 0
+ *
+ */
+int main(void)
 {
-	putchar('_');
-	putchar('p');
-	putchar('u');
-	putchar('t');
-	putchar('c');
-	putchar('h');
-	putchar('a');
-	putchar('r');
-	putchar('\n');
+        int n;
 
-	return (0);
-}
+        srand(time(0));
+        n = rand() - RAND_MAX / 2;
+        if (n < 0)
+        {
+                printf("%d is negative\n", n);
+        } else if (n == 0)
+        {
+                printf("%d is zero\n", n);
+        } else
+        {
+                printf("%d is positive\n", n);   
+        return (0);
+} 
