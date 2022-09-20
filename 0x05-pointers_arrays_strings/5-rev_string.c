@@ -1,7 +1,7 @@
-#include <stdio.h> 
-#include "main.h" 
+#include <stdio.h>
+#include "main.h"
 
-/** 
+/**
 * rev_string - Reverses a string
 * @s: string to be reversed
 *
@@ -35,4 +35,4 @@ int _strlen(char *s)
 		len++;
 
 	return (len);
-}}
+}
