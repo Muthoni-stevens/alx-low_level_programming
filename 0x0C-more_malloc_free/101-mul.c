@@ -11,7 +11,6 @@
 void _print(char *str, int l)
 {
 	int i, j;
-
 	i = j = 0;
 	while (i < l)
 	{
@@ -70,7 +69,6 @@ char *mul(char n, char *num, int num_index, char *dest, int dest_index)
 int check_for_digits(char **av)
 {
 	int i, j;
-
 	for (i = 1; i < 3; i++)
 	{
 		for (j = 0; av[i][j]; j++)
